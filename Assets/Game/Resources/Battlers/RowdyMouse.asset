@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aafe065326b34d4eae048e9ace2709a, type: 3}
+  m_Name: RowdyMouse
+  m_EditorClassIdentifier: Assembly-CSharp::Character
+  name: RowdyMouse
+  sprite: {fileID: 21300000, guid: fa30f752d039f3445b3476e320a99a48, type: 3}
+  weakness: 0
+  MaxHP: 11
+  MaxPP: 0
+  Atk: 6
+  Def: 3
+  Skill: 3
+  IQ: 3
+  Speed: 5
+  AtkGrowth: 0
+  DefGrowth: 0
+  SkillGrowth: 0
+  IQGrowth: 0
+  SpeedGrowth: 0
+  HPGrowth: 0
+  PPGrowth: 0
+  ExpYield: 7
+  isPlayerCharacter: 0
+  moveSet:
+  - moveBase: {fileID: 11400000, guid: d578937ed3808034a8956f24b29a8c20, type: 2}
+    level: 0
